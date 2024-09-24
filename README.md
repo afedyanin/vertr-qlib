@@ -13,4 +13,11 @@
 ## Blogs
 
 - [yetanotherquant](https://letyourmoneygrow.com/yetanotherquant/)
+- [implementingquantlib on substack](https://implementingquantlib.substack.com/)
+- [implementingquantlib](https://www.implementingquantlib.com/)
+- [quantlib-python-tutorials-with-examples](https://gouthamanbalaraman.com/blog/quantlib-python-tutorials-with-examples.html)
+
+## Video
+
+- [The QuantLib notebooks](https://www.youtube.com/playlist?list=PLu_PrO8j6XAvOAlZND9WUPwTHY_GYhJVr)
 
