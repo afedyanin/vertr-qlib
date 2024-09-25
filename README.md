@@ -30,3 +30,13 @@ https://developer.gs.com/docs/gsquant/
 https://github.com/PacktPublishing/Mastering-Python-for-Finance-Second-Edition
 https://github.com/PacktPublishing/Hands-on-Python-for-Finance
 
+
+## Curves
+
+https://finpricing.com/lib/IrCurve.html
+https://corporatefinanceinstitute.com/resources/fixed-income/yield-curve/
+https://cfrm17.gitbook.io/zero-curve-construction
+https://www.moex.com/ru/marketdata/indices/state/g-curve/
+https://www.moex.com/s478
+https://www.moex.com/en/fixing/
+
