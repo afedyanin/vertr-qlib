@@ -21,3 +21,12 @@
 
 - [The QuantLib notebooks](https://www.youtube.com/playlist?list=PLu_PrO8j6XAvOAlZND9WUPwTHY_GYhJVr)
 
+## 2024-09-25
+
+https://github.com/goldmansachs/gs-quant
+https://developer.gs.com/docs/gsquant/
+
+
+https://github.com/PacktPublishing/Mastering-Python-for-Finance-Second-Edition
+https://github.com/PacktPublishing/Hands-on-Python-for-Finance
+
