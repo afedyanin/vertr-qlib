@@ -1,5 +1,13 @@
 # vertr-qlib
 
+## Numpy
+
+- [numpy-financial](https://numpy.org/numpy-financial/)
+
+## Cources
+
+- [financeandpython](https://financeandpython.com/courses/basic-finance/)
+
 ## Quantlib
 
 - [repo](https://github.com/lballabio/quantlib)
