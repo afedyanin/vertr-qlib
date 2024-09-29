@@ -62,3 +62,8 @@ https://finpricing.com/lib/IrCurve.html
 https://corporatefinanceinstitute.com/resources/fixed-income/yield-curve/
 https://cfrm17.gitbook.io/zero-curve-construction
 
+## ML for QF
+
+https://github.com/Leefinance/Quantitative-finance-papers-using-deep-learning
+https://www.linkedin.com/pulse/aiml-quantitative-finance-bridging-insights-yash-verma-ygxke/
+https://arxiv.org/pdf/2405.10119
