@@ -1,5 +1,13 @@
 # vertr-qlib
 
+## 2024-10-04
+
+https://github.com/microsoft/qlib
+https://github.com/wilsonfreitas/awesome-quant
+https://github.com/topics/quantitative-finance
+https://github.com/amaggiulli/QLNet
+
+
 ## Numpy
 
 - [numpy-financial](https://numpy.org/numpy-financial/)
