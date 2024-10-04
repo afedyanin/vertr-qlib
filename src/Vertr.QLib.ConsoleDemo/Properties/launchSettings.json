@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Vertr.QLib.ConsoleDemo": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
