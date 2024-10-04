@@ -6,12 +6,26 @@
 - [Official QuantLib Documentation](https://www.quantlib.org/docs.shtml)
 
 
+
 ## 2024-10-04
 
 https://github.com/microsoft/qlib
 https://github.com/wilsonfreitas/awesome-quant
 https://github.com/topics/quantitative-finance
 https://github.com/amaggiulli/QLNet
+
+
+### FxForward
+
+https://quantlib-users.narkive.com/I1wETBB0/correct-way-to-price-fx-forward
+
+https://quant.stackexchange.com/questions/55182/fx-forward-rate-agreement-valuation-in-quantlib
+
+https://quantlib-python-docs.readthedocs.io/en/latest/instruments/forwards.html
+
+https://sourceforge.net/p/quantlib/mailman/quantlib-users/thread/26EB7CF7-D043-4545-B824-73C678AB1CAE@googlemail.com/
+
+https://www.opensourcerisk.org/docs/qle/class_quant_ext_1_1_fx_forward.html
 
 
 ## Numpy
