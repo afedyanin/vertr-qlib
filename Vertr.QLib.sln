@@ -4,12 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{B772E7C7-0DFC-4A71-A1BE-A3FEA7B55BA9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitlab-ci.yml = .gitlab-ci.yml
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		qlib.md = qlib.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4E37023-A1F0-4378-9A37-1C9BF007EBAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC50169D-8989-433F-BB95-F8E7F38F2515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vertr.QLib.Tests", "tests\Vertr.QLib.Tests\Vertr.QLib.Tests.csproj", "{C7488E47-2941-4955-AA72-0384384A09B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vertr.QLib.Tests", "tests\Vertr.QLib.Tests\Vertr.QLib.Tests.csproj", "{C7488E47-2941-4955-AA72-0384384A09B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vertr.QLib.ConsoleDemo", "src\Vertr.QLib.ConsoleDemo\Vertr.QLib.ConsoleDemo.csproj", "{49156E69-7473-45B6-A902-320EEBB1228F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +32,17 @@ Global
 		{C7488E47-2941-4955-AA72-0384384A09B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7488E47-2941-4955-AA72-0384384A09B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7488E47-2941-4955-AA72-0384384A09B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49156E69-7473-45B6-A902-320EEBB1228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49156E69-7473-45B6-A902-320EEBB1228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49156E69-7473-45B6-A902-320EEBB1228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49156E69-7473-45B6-A902-320EEBB1228F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C7488E47-2941-4955-AA72-0384384A09B8} = {DC50169D-8989-433F-BB95-F8E7F38F2515}
+		{49156E69-7473-45B6-A902-320EEBB1228F} = {F4E37023-A1F0-4378-9A37-1C9BF007EBAF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2E901C8-8018-4B43-8B8E-A40CA710BE95}
