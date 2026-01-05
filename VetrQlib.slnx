@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/common/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="LICENSE" />
+    <File Path="qlib.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Vertr.QLib.ConsoleDemo/Vertr.QLib.ConsoleDemo.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Vertr.QLib.Tests/Vertr.QLib.Tests.csproj" />
+  </Folder>
+</Solution>

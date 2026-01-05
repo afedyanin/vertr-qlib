@@ -1,8 +1,10 @@
 using QuantLib;
 
 namespace Vertr.QLib.ConsoleDemo;
+
 internal sealed class EquityOptionDemo : IDisposable
 {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2213:Disposable fields should be disposed", Justification = "<Pending>")]
     private readonly BlackScholesMertonProcess _stochasticProcess;
 
     private readonly Option.Type _optionType;
@@ -15,10 +17,14 @@ internal sealed class EquityOptionDemo : IDisposable
     private readonly double _strikePrice;
 
     private readonly Calendar _calendar = new TARGET();
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2213:Disposable fields should be disposed", Justification = "<Pending>")]
     private readonly PlainVanillaPayoff _payoff;
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2213:Disposable fields should be disposed", Justification = "<Pending>")]
     private readonly EuropeanExercise _europeanExercise;
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2213:Disposable fields should be disposed", Justification = "<Pending>")]
     private readonly AmericanExercise _americanExercise;
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Usage", "CA2213:Disposable fields should be disposed", Justification = "<Pending>")]
     private readonly BermudanExercise _bermudanExercise;
 
     public EquityOptionDemo(
@@ -46,7 +52,7 @@ internal sealed class EquityOptionDemo : IDisposable
         _americanExercise = new AmericanExercise(_settlementDate, _maturityDate);
 
         var exerciseDates = new DateVector(4);
-        for (int i = 1; i <= 4; i++)
+        for (var i = 1; i <= 4; i++)
         {
             var forwardPeriod = new Period(3 * i, TimeUnit.Months);
             var forwardDate = settlementDate.Add(forwardPeriod);

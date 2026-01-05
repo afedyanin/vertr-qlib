@@ -6,7 +6,7 @@ internal static class Program
 {
     private static void Main()
     {
-        Date todaysDate = new Date(15, Month.September, 2024);
+        var todaysDate = new Date(15, Month.September, 2024);
         Settings.instance().setEvaluationDate(todaysDate);
 
         using var demo = new EquityOptionDemo(

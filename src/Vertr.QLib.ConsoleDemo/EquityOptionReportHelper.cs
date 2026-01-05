@@ -1,6 +1,7 @@
 using QuantLib;
 
 namespace Vertr.QLib.ConsoleDemo;
+
 internal static class EquityOptionReportHelper
 {
     private static readonly int[] ColumnWidths = [35, 14, 14, 14];
@@ -41,8 +42,8 @@ internal static class EquityOptionReportHelper
         double? bermudan,
         double? american)
     {
-        string strNA = "N/A";
-        string format = "{0:N6}";
+        var strNA = "N/A";
+        var format = "{0:N6}";
 
         Console.Write(methodName.PadRight(ColumnWidths[0]));
         Console.Write(string.Format((european == null) ? strNA : format, european).PadRight(ColumnWidths[1]));
